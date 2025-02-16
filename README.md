@@ -22,8 +22,7 @@ The **Plagiarism Checker and Chatbot Tool** is a web-based application built wit
 ## Installation
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/plagiarism-checker-chatbot.git
-cd plagiarism-checker-chatbot
+git clone https://github.com/mohdazmi03/PlagiarismCheckerAI.git
 ```
 
 ### 2️⃣ Set Up a Virtual Environment (Optional but Recommended)
