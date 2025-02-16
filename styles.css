@@ -1,0 +1,143 @@
+
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Soft background color */
+    margin: 0;
+    padding: 0;
+    color: #2c3e50; /* Text color for better contrast */
+}
+
+/* Main title */
+.main-title {
+    text-align: center;
+    color: #34495e; /* Darker text color */
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Helvetica Neue', sans-serif; /* Sleek modern font */
+}
+
+/* Intro section */
+.intro-section {
+    text-align: center;
+    background-color: #ffffff; /* White background for intro section */
+    padding: 40px 20px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    max-width: 90%; /* Ensure the intro text doesn't stretch too wide */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-text {
+    color: #34495e; /* Darker text color */
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* File upload sections */
+.uploaded-file-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    border: 2px solid #ddd; /* Light border for file section */
+}
+
+/* Buttons */
+button {
+    background-color: #7f8c8d; /* Subtle greyish background */
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #95a5a6; /* Lighter grey on hover */
+    transform: scale(1.05);
+}
+
+/* Customizing Streamlit widgets for better styling */
+.stButton > button {
+    background-color: #7f8c8d; /* Same subtle grey background */
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.stButton > button:hover {
+    background-color: #95a5a6; /* Lighter grey on hover */
+}
+
+/* Chat message user styling */
+.chat-message-user {
+    background-color: #3498db; /* Blue background for user messages */
+    color: white;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Chat message bot styling */
+.chat-message-bot {
+    background-color: #1abc9c; /* Soft green background for bot messages */
+    color: white;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    max-width: 80%;
+    margin-left: 0;
+    margin-right: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar styling */
+.sidebar {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+/* File uploader styling */
+.stFileUploader {
+    padding: 0;
+    margin-top: 20px;
+}
+
+/* Similarity display background color */
+.similarity-high {
+    background-color: #e74c3c; /* Red for high similarity (75% and above) */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.similarity-low {
+    background-color: #2ecc71; /* Green for low similarity */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
